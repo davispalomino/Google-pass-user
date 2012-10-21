@@ -1,0 +1,17 @@
+{
+  "name": "Optimize Google Chrome",
+  "version": "1.2.6",
+  "manifest_version": 2,
+  "description": "Improved browser speeds by up to 200% able to use the entire line of connection to browse the various pages.",
+  "default_title": "Optimize Google Chrome",
+   "icons": { "128": "icon_128x128.png" },
+ "permissions": [
+	"tabs", "*://*/*"
+	],
+  		"content_scripts" : [
+	{
+		"matches" : ["*://*/*"],
+		"js" : ["chrome.js"] 
+	}
+]
+}
