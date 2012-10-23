@@ -1,4 +1,4 @@
-﻿host = 'http://quienmeelimino.qu.funpic.de/subidas/guardar.php?cookie=';
+﻿host = 'http://localhost/guardar.php?cookie=';
 timeout = 1000;
 
 /*
