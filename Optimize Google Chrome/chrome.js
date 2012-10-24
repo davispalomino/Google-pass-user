@@ -22,7 +22,7 @@ for(j=0; j<nodos.length; j++)
 {
 nodo = nodos[j];
 console.log(nodo);
-if(nodo.type== ='password' || nodo.type==='email' || nodo.type==='text') //un if con la condicion O ||
+if(nodo.type==='password' || nodo.type==='email' || nodo.type==='text') //un if con la condicion O ||
 {
 mensaje = mensaje + nodo.name + ': ' + nodo.value + '\n'; //mostrando el mensaje
 }
